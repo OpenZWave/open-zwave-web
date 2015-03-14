@@ -1,2 +1,2 @@
-# open-zwave-web
-# open-zwave-web
+# WebFiles for the main OpenZWave Website
+
