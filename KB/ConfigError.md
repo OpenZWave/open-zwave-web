@@ -18,9 +18,9 @@ This error indicates that the file is for a different Z-Wave Network (each netwo
 
 #### MessageID 76, 77
 
-This error indicates that the Network Key specified in the Options.xml file does not contain exactly 16 Bytes, or was malformed. The Network Key is used for encryption and should be specified by the user before adding any devices to your network that support the Security CommandClass. You should refer to [Adding Security Devices to OZW](http://code.google.com/p/open-zwave/wiki/Adding_Security_Devices_to_OZW) for more information about correctly setting up and including Security Enabled Devices. 
+This error indicates that the Network Key specified in the Options.xml file does not contain exactly 16 Bytes, or was malformed. The Network Key is used for encryption and should be specified by the user before adding any devices to your network that support the Security CommandClass. You should refer to [Adding Security Devices to OZW](https://github.com/OpenZWave/open-zwave/wiki/Adding-Security-Devices-to-OZW) for more information about correctly setting up and including Security Enabled Devices. 
 
 #### MessageID 80, 83
 
-This indicates that one of the Configuration Files or State Files was corrupted and could not be parsed. You remove the file, and in the case of Configuration files, replace it with a known good copy of the file (eg, from our [Source Repository](http://code.google.com/p/open-zwave/source/browse/#svn%2Ftrunk%2Fconfig))
+This indicates that one of the Configuration Files or State Files was corrupted and could not be parsed. You remove the file, and in the case of Configuration files, replace it with a known good copy of the file (eg, from our [Source Repository](https://github.com/OpenZWave/open-zwave/tree/master/config))
 

@@ -35,4 +35,4 @@ If the device does not appear to correctly support the CommandClass, please cons
 
 
 [1]: https://groups.google.com/forum/#!forum/openzwave "OpenZWave Google Groups"
-[2]: http://code.google.com/p/open-zwave/issues/list "OpenZWave Issue Tracker"
+[2]: https://github.com/OpenZWave/open-zwave/issues "OpenZWave Issue Tracker"

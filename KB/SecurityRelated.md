@@ -1,6 +1,6 @@
 ## Security CC Errors
 
-These messages are related to the Security CC and usually indicate some sort of failure when trying to talk encrypted to a Security enabled Device. You should ensure that you have followed the instructions on the [OpenZWave Wiki](http://code.google.com/p/open-zwave/wiki/Adding_Security_Devices_to_OZW) about adding Security Devices to OZW when setting up your device. 
+These messages are related to the Security CC and usually indicate some sort of failure when trying to talk encrypted to a Security enabled Device. You should ensure that you have followed the instructions on the [OpenZWave Wiki](https://github.com/OpenZWave/open-zwave/wiki/Adding-Security-Devices-to-OZW) about adding Security Devices to OZW when setting up your device. 
 
 ### Specific MessageID Results
 
