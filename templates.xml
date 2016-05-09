@@ -346,7 +346,7 @@
 			If you are a looking for applications to control your Z-Wave
 			devices,
 			please consult this
-			<a href="https://github.com/OpenZWave/open-zwave/wiki/Projects-Using-OZW">
+			<a href="http://code.google.com/p/open-zwave/wiki/ProjectsUsingOZW">
 				page
 			</a>
 			which lists applications that utilize OpenZWave.
@@ -359,7 +359,7 @@
 			<li>
 				Works with the multiple
 				<a
-					href="https://github.com/OpenZWave/open-zwave/wiki/Controller-Compatibility-List">ZWave Controllers</a>
+					href="http://code.google.com/p/open-zwave/wiki/Controller_Compatibility_List">ZWave Controllers</a>
 			</li>
 			<li>ZWave Protocol is abstracted away hiding a lot of the complexity</li>
 			<li>
@@ -368,7 +368,7 @@
 				etc
 				(see
 				<a
-					href="https://github.com/OpenZWave/open-zwave/blob/master/config/manufacturer_specific.xml">here</a>
+					href="http://code.google.com/p/open-zwave/source/browse/trunk/config/manufacturer_specific.xml">here</a>
 				for a complete list)
 			</li>
 			<li>Security related devices such as Locks are Supported</li>
@@ -723,4 +723,60 @@
 		<div>This link will take you to our most recent API documentation
 			pages</div>
 	</message>
+	<message id="devicedb-intro">
+	</message>
+	<message id="devicedb-devicenotfound">
+	<div class="container">
+		<p>Not Found</p>
+	</div>
+	</message>
+	<message id="devicedb-content">
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+    	<div class="jumbotron">
+        	<div class="container">
+                  	<h1>OpenZWave Device Database</h1>
+                          	<p>This is a list of all the current devices
+                          	that OpenZWave has in its Database</p>
+                          	<p>Use the menu on the left to navigate the
+                          	manufacturers and devices to see further
+                          	information about them.</p>
+                          	<p>A discussion Forum is also linked to each
+                          	device so you can discuss with other users
+                          	best practices, tips and tricks to get the
+                          	most out your Z-Wave Device and OZW</p>
+                                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-6">
+                        	<h2>Not Listed?</h2>
+                                	<p>Nevermind. Just because a device
+                                	isn't listed doesn't mean it wont
+                                	work with OpenZWave.</p>
+                                	<p>OpenZWave will still work with
+                                	most devices even if they are not in
+                                	our database, although the ability
+                                	to configure the devices might be
+                                	limited.</p>
+                                        <p><a class="btn btn-default"
+                                	href="https://github.com/OpenZWave/open-zwave/wiki/Adding-Devices"
+                                	role="button">Learn how to
+                                	contribute new devices</a></p>
+                        </div>
+                        <div class="col-md-6">
+                        	<h2>Got Problems?</h2>
+                                	<p>Try out the Log Analyzer - It
+                                	will scan your OZW log files for
+                                	common problems with suggestions for
+                                	improvements</p>
+                                        <p><a class="btn btn-default"
+                                	href="/log-analyzer/" role="button">Scan My Logs</a></p>
+                        </div>
+                </div>
+        </div>
+
+	</message>
+	
+
 </messages>
